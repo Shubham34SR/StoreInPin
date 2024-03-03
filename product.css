@@ -1,0 +1,30 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.product-description{
+    height: 600px;
+    width: 100%;
+    background-color:white;
+    display: flex;
+}
+.product-img{
+    height: 400px;
+    width: 400px;
+    background-image: url(./milk\ img.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-left: 30px;
+    margin-top: 20px;
+    border-bottom: 1px solid rgb(25, 25, 25);
+
+}
+.product-detail{
+    height: 600px;
+    width: 427px;
+    border-right: 0.5px solid rgb(25, 25, 25);
+}
+.product-rate-quality{
+    height: 600px;
+    width: 400px;
+}

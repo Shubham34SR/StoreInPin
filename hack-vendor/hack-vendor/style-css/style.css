@@ -1,0 +1,96 @@
+*{margin: 0px;
+padding: 0px;}
+
+.nav-1{text-decoration: none;
+    color: white;
+    font-size: 35px;
+}
+
+.nav-1:hover{
+    color: white;
+}
+
+.nav-label{
+    display: flex;
+    list-style-type: none;
+    padding-right: 70px;
+}
+.nav-item a{color: white;
+font-weight: 500;
+font-size: 20px;
+margin-left: 20px;
+margin-top: 8px;
+}
+
+.nav-item a:hover{
+    color: maroon;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.nav-link-1{
+    padding: 30px;
+position:relative;
+top: 13px;
+text-decoration: none;
+}
+
+.nav-item-m a{text-decoration: none;
+    color:maroon;
+    position: relative;
+    top: 20px;
+    padding:10px 15px 10px 8px;
+   ;
+font-weight: 600;
+font-size: 20px;
+margin-top: 8px;
+}
+
+.nav-item-m a:hover{color: maroon;}
+
+.box-1{
+    background-color: rgb(245, 245, 245);
+    margin-top: 20px;
+    border-radius: 20px;
+}
+.p-image img{
+
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        padding-top: 30px;
+}
+
+.p-detail  h4{padding-left: 40px;
+    margin-top: 20px;
+
+}
+
+.p-detail p{
+    padding-left: 40px;
+}
+
+.flexer ul{
+    list-style-type: none;
+    display: flex;
+
+}
+
+.flexer li{
+    padding: 10px;
+}
+
+.edit-b a{text-decoration: none;
+    font-size: 25px;
+    background-color: maroon;
+    color: white;
+    display: block;
+    text-align: center;
+    border-radius: 20px;
+   margin-top: 3%;
+}
+
+.edit-b a:hover{
+    color: white;
+}

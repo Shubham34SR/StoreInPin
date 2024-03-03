@@ -1,0 +1,117 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.Vendor-page{
+    height: 900px;
+    width: 100%;
+    background-color: #A94438;
+}
+.product-register{
+    color: beige;
+    padding-top: 40px;
+    margin-left: 350px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+.product-detail{
+    height: 750px;
+    width: 1220px;
+    background-color: rgb(226, 237, 230);
+    display: flex;
+    align-self: center;
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+/*image of product*/
+.image-container {
+  position: relative;
+  width: 300px;
+  height: 250px;
+  border: 2px dashed #ccc;
+  overflow: hidden;
+  margin-top: 100px;
+  margin-left: 100px;
+  transition: border-color 0.3s ease;
+}
+
+.image-label {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.image-label:hover .image-placeholder {
+  background-color: rgba(241, 232, 232, 0.1); 
+}
+
+.image-placeholder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
+.image-placeholder img {
+  width: 50px; 
+  height: 50px;
+}
+
+#uploaded-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+/*other product details*/
+.form-group {
+    height: 80px;
+    margin-bottom: 15px;
+    margin-left: 150px;
+    margin-top: 10px;
+    margin-right: 20px;
+  }
+  
+  /* Style form labels */
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  /* Style form inputs */
+  input[type="text"],
+  input[type="description"],
+  textarea {
+    width: 600px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
+  }
+  .form-group:hover.textarea{
+    background-color: grey;
+  }
+  .form-group:hover.label{
+    background-color: #ccc;
+  }
+  
+  
+  /* Style submit button */
+  button {
+    padding: 10px 20px;
+    width: 110px;
+    background-color: #A94438;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 420px;
+   
+  }
+  
+  button:hover {
+    background-color:  #c51f0d;
+  }

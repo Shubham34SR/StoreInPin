@@ -1,0 +1,91 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+.profile-page{
+    height: 900px;
+    width: 100%;
+    background-color: #A94438;
+    display: flex;
+}
+.profile-content{
+    height: 800px;
+    width: 100%;
+    background-color: aliceblue;
+    margin-left: 20px;
+    margin-top: 80px;
+    margin-right: 20px;
+    border-radius: 8px;
+    justify-content: center;
+}
+.profile-text{
+    height: 40px;
+    width: 400px;
+   text-align: center;
+   margin-left: 380px;
+   color: black;
+   font-size: 20px;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.profile-text:hover{
+    font-size: 22px;
+}
+.profile{
+    height: 400px;
+    width: 100%;
+    display: inline-flex;
+
+}
+.box{
+    height:350px;
+    width: 400px;
+    background-color:aliceblue;
+    margin-top: 80px;
+    margin-left: 50px;
+    justify-content: space-evenly;
+}
+.profile-pic{
+    height: 300px;
+    background-image: url(kiryana.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: 2px solid rgb(245, 240, 240);
+    border-radius: 7px;
+}
+.profile-pic:hover{
+    background-color: azure;
+}
+.personal-details{
+    width: 600px;
+    height:350px;
+    margin-right: 10px;
+    padding-left: 35px;
+    padding-top: 8px;
+    border-left: 8px solid grey;
+    text-align: center;
+    display: block;
+
+}
+.personl-details:hover{
+    border-color: antiquewhite;
+}
+.owner-pic{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    justify-content: center;
+    margin-left: 250px;
+    border-radius: 50%;
+}
+.shop-descp{
+    width: 80%;
+    height: 182px;
+    background-color: white;
+    border: 1px solid black;
+    margin-left: 50px;
+    border-radius: 4px;
+
+    
+    
+}
